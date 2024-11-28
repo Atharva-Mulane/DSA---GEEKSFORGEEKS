@@ -9,6 +9,7 @@ class Solution {
 
         for (int num : arr) {
             if (num > first) {
+                
                 second = first;
                 first = num;
             } else if (num > second && num != first) {
