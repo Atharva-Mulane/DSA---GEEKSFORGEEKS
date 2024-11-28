@@ -8,7 +8,6 @@ class Solution {
                 count++;
             }
         }
-
         while(count < arr.length) {
             arr[count] = 0;
             count++;
